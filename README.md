@@ -2,6 +2,8 @@
 
 Classic Crytek Sponza Atrium scene implemented using [Dagon 3D engine](https://github.com/gecko0307/dagon) in [D language](https://dlang.org).
 
+Repository doesn't include the assets, they should be downloaded separately from the releases page and put to `data` folder.
+
 ## Features
 - The scene is loaded from glTF
 - PBR rendering
