@@ -13,6 +13,7 @@
 
 # Executables
 *.exe
+sponza
 
 # DUB
 .dub
@@ -22,3 +23,22 @@ docs/
 
 # Code coverage
 *.lst
+
+# Debug info
+*.pdb
+
+# Backup files
+*~
+
+# Standard assets
+data/__internal/
+gamecontrollerdb.txt
+
+# Log file
+demo.log
+
+# Assets
+data/sponza
+data/envmap.hdr
+data/loading.jpg
+data/lut.png

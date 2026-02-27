@@ -1,0 +1,23 @@
+{
+    "name": "sponza",
+    "description": "Dagon Sponza demo",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    "dependencies": {
+        "dagon": "~master"
+    },
+    "importPaths": ["source"],
+    "sourcePaths": ["source"],
+    "buildRequirements": [
+        "allowWarnings"
+    ],
+    "configurations": [
+        {
+            "name": "application",
+            "targetType": "executable",
+            "mainSourceFile": "source/main.d"
+        }
+    ]
+}
