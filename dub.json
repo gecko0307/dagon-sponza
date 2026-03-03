@@ -6,7 +6,7 @@
         "Timur Gafarov"
     ],
     "dependencies": {
-        "dagon": "~master"
+        "dagon": "0.41.0"
     },
     "importPaths": ["source"],
     "sourcePaths": ["source"],
