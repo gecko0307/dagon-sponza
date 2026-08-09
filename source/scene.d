@@ -49,6 +49,7 @@ class SponzaScene: Scene
         
         environment.backgroundColor = Color4f(0.5f, 0.5f, 0.0f, 1.0f);
         environment.ambientMap = prefilteredCubemap;
+        environment.ambientBRDF = game.deferredRenderer.brdf;
         environment.ambientEnergy = 0.2f;
         
         camera = addCamera();
